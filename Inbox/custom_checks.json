@@ -1,0 +1,6 @@
+{
+    "example_check": {
+        "email": "noreply@example.com",
+        "enabled": false
+    }
+}
