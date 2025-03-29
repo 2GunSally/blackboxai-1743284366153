@@ -1,0 +1,26 @@
+2025-03-29 22:04:44,803 - INFO - Using proxy: http://43.153.42.39:13001
+2025-03-29 22:05:42,590 - INFO - Checking: jonathonmrickert@hotmail.com:Trekcir#1
+2025-03-29 22:05:52,788 - ERROR - API check error: HTTPSConnectionPool(host='www.kroger.com', port=443): Max retries exceeded with url: /signin (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+2025-03-29 22:06:13,839 - ERROR - Selenium check error: Message: 
+Stacktrace:
+#0 0x5622959a4ffa <unknown>
+#1 0x562295463970 <unknown>
+#2 0x5622954b5385 <unknown>
+#3 0x5622954b55b1 <unknown>
+#4 0x5622955043c4 <unknown>
+#5 0x5622954db2bd <unknown>
+#6 0x56229550170c <unknown>
+#7 0x5622954db063 <unknown>
+#8 0x5622954a7328 <unknown>
+#9 0x5622954a8491 <unknown>
+#10 0x56229596c42b <unknown>
+#11 0x5622959702ec <unknown>
+#12 0x562295953a22 <unknown>
+#13 0x562295970e64 <unknown>
+#14 0x562295937bef <unknown>
+#15 0x562295993558 <unknown>
+#16 0x562295993736 <unknown>
+#17 0x5622959a3e76 <unknown>
+#18 0x7f57ceab3609 start_thread
+
+2025-03-29 22:06:13,839 - INFO - INVALID: jonathonmrickert@hotmail.com:Trekcir#1
