@@ -24,3 +24,137 @@ Stacktrace:
 #18 0x7f57ceab3609 start_thread
 
 2025-03-29 22:06:13,839 - INFO - INVALID: jonathonmrickert@hotmail.com:Trekcir#1
+2025-03-29 23:03:19,657 - INFO - Using proxy: http://35.158.152.65:20202
+2025-03-29 23:04:47,269 - INFO - Using proxy: http://52.196.1.182:80
+2025-03-29 23:05:11,489 - INFO - Checking: jonathonmrickert@hotmail.com:hsjfif
+2025-03-29 23:05:11,908 - ERROR - Auth token error: HTTPSConnectionPool(host='www.kroger.com', port=443): Max retries exceeded with url: /signin (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)')))
+2025-03-29 23:05:11,908 - INFO - INVALID: jonathonmrickert@hotmail.com:hsjfif
+2025-03-29 23:13:08,410 - INFO - Using proxy: http://43.153.100.212:13001
+2025-03-29 23:13:32,007 - INFO - Checking: jotjsg@gmail.com:dhrjr
+2025-03-29 23:13:42,154 - ERROR - Auth token error: HTTPSConnectionPool(host='www.kroger.com', port=443): Max retries exceeded with url: /signin (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+2025-03-29 23:13:42,154 - INFO - INVALID: jotjsg@gmail.com:dhrjr
+2025-03-29 23:17:02,598 - INFO - Trying proxy: http://49.51.203.51:13001
+2025-03-29 23:17:17,738 - WARNING - Proxy test failed: HTTPSConnectionPool(host='www.kroger.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+2025-03-29 23:17:17,947 - INFO - Trying proxy: http://43.153.18.198:13001
+2025-03-29 23:17:28,142 - WARNING - Proxy test failed: HTTPSConnectionPool(host='www.kroger.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+2025-03-29 23:17:28,384 - INFO - Trying proxy: http://43.135.172.170:13001
+2025-03-29 23:17:38,523 - WARNING - Proxy test failed: HTTPSConnectionPool(host='www.kroger.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+2025-03-29 23:17:38,524 - WARNING - All proxy attempts failed, continuing without proxy
+2025-03-29 23:17:54,985 - INFO - Checking: zjjdjd@yahoo.com:hdjfkfo@gmail.com
+2025-03-29 23:17:55,135 - WARNING - Rate limited, rotating proxy...
+2025-03-29 23:17:55,270 - INFO - Trying proxy: http://49.51.198.134:13001
+2025-03-29 23:17:55,357 - WARNING - Proxy test failed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2025-03-29 23:17:55,504 - INFO - Trying proxy: http://43.153.100.212:13001
+2025-03-29 23:18:10,929 - WARNING - Proxy test failed: HTTPSConnectionPool(host='www.kroger.com', port=443): Read timed out. (read timeout=10)
+2025-03-29 23:18:11,198 - INFO - Trying proxy: http://172.167.51.162:9090
+2025-03-29 23:18:21,659 - WARNING - Proxy test failed: HTTPSConnectionPool(host='www.kroger.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+2025-03-29 23:18:21,660 - WARNING - All proxy attempts failed, continuing without proxy
+2025-03-29 23:18:21,785 - WARNING - Rate limited, rotating proxy...
+2025-03-29 23:18:22,038 - INFO - Trying proxy: http://43.130.2.30:13001
+2025-03-29 23:18:22,125 - WARNING - Proxy test failed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2025-03-29 23:18:22,471 - INFO - Trying proxy: http://172.167.51.162:9090
+2025-03-29 23:18:32,826 - WARNING - Proxy test failed: HTTPSConnectionPool(host='www.kroger.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+2025-03-29 23:18:32,967 - INFO - Trying proxy: http://170.106.181.226:13001
+2025-03-29 23:18:38,362 - WARNING - Proxy test failed: HTTPSConnectionPool(host='www.kroger.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 500 Internal Server Error')))
+2025-03-29 23:18:38,362 - WARNING - All proxy attempts failed, continuing without proxy
+2025-03-29 23:18:38,362 - INFO - INVALID: zjjdjd@yahoo.com:hdjfkfo@gmail.com
+2025-03-29 23:24:41,772 - INFO - Trying proxy: http://54.180.234.231:20201
+2025-03-29 23:24:42,472 - INFO - Using proxy: http://54.180.234.231:20201
+2025-03-29 23:25:09,070 - INFO - Checking: sjdjjh@test.com:sjdjf
+2025-03-29 23:25:09,433 - ERROR - Attempt 1 failed: Expecting value: line 1 column 1 (char 0)
+2025-03-29 23:25:09,677 - INFO - Trying proxy: http://43.135.172.170:13001
+2025-03-29 23:25:20,113 - WARNING - Proxy test failed: HTTPSConnectionPool(host='www.kroger.com', port=443): Read timed out. (read timeout=10)
+2025-03-29 23:25:20,466 - INFO - Trying proxy: http://18.183.24.164:20202
+2025-03-29 23:25:21,032 - INFO - Using proxy: http://18.183.24.164:20202
+2025-03-29 23:25:23,326 - ERROR - Attempt 2 failed: Expecting value: line 1 column 1 (char 0)
+2025-03-29 23:25:23,326 - INFO - INVALID: sjdjjh@test.com:sjdjf
+2025-03-29 23:28:56,370 - INFO - Trying proxy: http://13.40.100.60:20202
+2025-03-29 23:28:59,517 - INFO - Using proxy: http://13.40.100.60:20202
+2025-03-29 23:29:16,124 - INFO - Checking: hdjfj@gmail.com:dffss
+2025-03-29 23:29:16,367 - ERROR - JSON decode error: Expecting value: line 1 column 1 (char 0)
+2025-03-29 23:29:16,367 - INFO - INVALID: hdjfj@gmail.com:dffss
+2025-03-29 23:31:45,227 - INFO - Trying proxy: http://49.51.38.113:13001
+2025-03-29 23:32:01,005 - WARNING - Proxy test failed: HTTPSConnectionPool(host='www.kroger.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+2025-03-29 23:32:02,257 - INFO - Trying proxy: http://49.51.182.56:13001
+2025-03-29 23:32:17,459 - WARNING - Proxy test failed: HTTPSConnectionPool(host='www.kroger.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+2025-03-29 23:32:17,602 - INFO - Trying proxy: http://43.153.42.39:13001
+2025-03-29 23:32:42,580 - WARNING - Proxy test failed: HTTPSConnectionPool(host='www.kroger.com', port=443): Read timed out. (read timeout=10)
+2025-03-29 23:32:42,976 - INFO - Trying proxy: http://49.51.202.75:13001
+2025-03-29 23:32:58,432 - WARNING - Proxy test failed: HTTPSConnectionPool(host='www.kroger.com', port=443): Read timed out. (read timeout=10)
+2025-03-29 23:32:59,116 - INFO - Trying proxy: http://13.246.209.48:1080
+2025-03-29 23:33:00,245 - INFO - Using proxy: http://13.246.209.48:1080
+2025-03-29 23:33:17,579 - INFO - Checking: hdjfk@gmail.com:dfgd
+2025-03-29 23:33:17,866 - WARNING - CSRF token not found in page
+2025-03-29 23:33:17,866 - ERROR - Failed to extract CSRF token
+2025-03-29 23:33:17,867 - INFO - INVALID: hdjfk@gmail.com:dfgd
+2025-03-29 23:38:23,183 - INFO - Trying proxy: http://43.159.132.190:13001
+2025-03-29 23:38:23,270 - WARNING - Proxy test failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-03-29 23:38:24,862 - INFO - Trying proxy: http://172.188.122.92:80
+2025-03-29 23:38:29,338 - WARNING - Proxy test failed: HTTPSConnectionPool(host='www.kroger.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 502 Bad Gateway')))
+2025-03-29 23:38:29,551 - INFO - Trying proxy: http://43.135.166.82:13001
+2025-03-29 23:38:29,640 - WARNING - Proxy test failed: HTTPSConnectionPool(host='www.kroger.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 500 Internal Server Error')))
+2025-03-29 23:38:35,035 - INFO - Trying proxy: http://170.106.198.32:13001
+2025-03-29 23:38:35,122 - WARNING - Proxy test failed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2025-03-29 23:38:35,623 - INFO - Trying proxy: http://43.135.179.180:13001
+2025-03-29 23:38:37,985 - WARNING - Proxy test failed: HTTPSConnectionPool(host='www.kroger.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 502 Bad Gateway')))
+2025-03-29 23:38:37,985 - ERROR - No working proxy found - skipping credential
+2025-03-29 23:39:01,416 - INFO - Checking: jonnn@gmail.com:dfghh
+2025-03-29 23:39:11,617 - ERROR - Request failed: HTTPSConnectionPool(host='www.kroger.com', port=443): Max retries exceeded with url: /signin (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+2025-03-29 23:39:12,476 - INFO - Trying proxy: http://43.135.179.180:13001
+2025-03-29 23:39:22,624 - WARNING - Proxy test failed: HTTPSConnectionPool(host='www.kroger.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+2025-03-29 23:39:22,926 - INFO - Trying proxy: http://43.159.152.105:13001
+2025-03-29 23:39:33,606 - WARNING - Proxy test failed: HTTPSConnectionPool(host='www.kroger.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+2025-03-29 23:39:39,121 - INFO - Trying proxy: http://49.51.38.113:13001
+2025-03-29 23:39:49,264 - WARNING - Proxy test failed: HTTPSConnectionPool(host='www.kroger.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+2025-03-29 23:39:50,282 - INFO - Trying proxy: http://204.236.176.61:3128
+2025-03-29 23:39:50,465 - INFO - Using proxy: http://204.236.176.61:3128
+2025-03-29 23:39:52,514 - WARNING - CSRF token not found using all patterns. Page may have changed.
+2025-03-29 23:39:52,514 - ERROR - Failed to extract CSRF token
+2025-03-29 23:39:52,515 - INFO - INVALID: jonnn@gmail.com:dfghh
+2025-03-29 23:42:00,013 - INFO - Checking: jdjfkg@gmail.com:ddfg
+2025-03-29 23:42:00,041 - WARNING - CSRF token not found using all patterns. Page may have changed.
+2025-03-29 23:42:00,042 - ERROR - Failed to extract CSRF token
+2025-03-29 23:42:00,042 - INFO - INVALID: jdjfkg@gmail.com:ddfg
+2025-03-29 23:44:55,485 - INFO - Trying proxy: http://51.91.237.124:8080
+2025-03-29 23:44:58,435 - INFO - Trying proxy: http://43.135.178.216:13001
+2025-03-29 23:44:58,522 - WARNING - Proxy test failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-03-29 23:44:58,944 - INFO - Trying proxy: http://43.201.58.184:20202
+2025-03-29 23:44:59,637 - INFO - Using proxy: http://43.201.58.184:20202
+2025-03-29 23:45:26,721 - INFO - Checking: jkdifk@gmail.com:dgds
+2025-03-29 23:45:26,896 - WARNING - CSRF token not found using all patterns. Page may have changed.
+2025-03-29 23:45:26,897 - ERROR - Failed to extract CSRF token
+2025-03-29 23:45:26,897 - INFO - INVALID: jkdifk@gmail.com:dgds
+2025-03-30 00:14:40,737 - WARNING - Proxy failed: name 'FreeProxy' is not defined
+2025-03-30 00:15:19,016 - WARNING - Proxy failed: name 'FreeProxy' is not defined
+2025-03-30 00:17:20,279 - INFO - Testing proxy: http://170.106.140.154:13001
+2025-03-30 00:17:30,477 - WARNING - Proxy test failed: HTTPSConnectionPool(host='www.kroger.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+2025-03-30 00:17:30,686 - INFO - Testing proxy: http://170.106.184.19:13001
+2025-03-30 00:17:41,133 - WARNING - Proxy test failed: HTTPSConnectionPool(host='www.kroger.com', port=443): Read timed out. (read timeout=10)
+2025-03-30 00:17:41,337 - INFO - Testing proxy: http://49.51.197.116:13001
+2025-03-30 00:17:51,482 - WARNING - Proxy test failed: HTTPSConnectionPool(host='www.kroger.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+2025-03-30 00:17:51,482 - WARNING - No working proxy found, continuing without proxy
+2025-03-30 00:27:01,790 - INFO - Starting Kroger Browser Checker
+2025-03-30 00:27:26,993 - INFO - Starting Kroger Browser Checker
+2025-03-30 00:27:32,182 - ERROR - Error during checking: Message: session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir
+Stacktrace:
+#0 0x55951ac85ffa <unknown>
+#1 0x55951a744970 <unknown>
+#2 0x55951a77e42a <unknown>
+#3 0x55951a77a18f <unknown>
+#4 0x55951a7cabd9 <unknown>
+#5 0x55951a7ca106 <unknown>
+#6 0x55951a7bc063 <unknown>
+#7 0x55951a788328 <unknown>
+#8 0x55951a789491 <unknown>
+#9 0x55951ac4d42b <unknown>
+#10 0x55951ac512ec <unknown>
+#11 0x55951ac34a22 <unknown>
+#12 0x55951ac51e64 <unknown>
+#13 0x55951ac18bef <unknown>
+#14 0x55951ac74558 <unknown>
+#15 0x55951ac74736 <unknown>
+#16 0x55951ac84e76 <unknown>
+#17 0x7febe5a8e609 start_thread
+
+2025-03-30 00:27:32,184 - INFO - Saved 0 valid and 1 invalid credentials
+2025-03-30 00:27:32,184 - INFO - Checker execution completed
